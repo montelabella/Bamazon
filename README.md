@@ -12,5 +12,5 @@ It presents the user with 3 Options.
 
 It uses the **Inquirer**, **mysql**, and **cli-table** npm packages.
 
-![Alt text](Bamazon/bamazon.png)
+![Alt text](https://github.com/montelabella/Bamazon/blob/master/bamazon.png)
 
