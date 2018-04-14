@@ -1,0 +1,31 @@
+item_id,product_name,department_name,price,stock_quantity
+1,"Cat Dress","Womens Clothing",30,22
+2,"Cat Shoes","Womens Shoes",25,13
+3,"Cat Purse",Bags,32,38
+4,"Cat Bracelet",Jewelry,76,4
+5,"Cat Pillow",Bedroom,120,19
+6,"Cat Book",Books,12,22
+7,"Cat Dishes",Kitchenware,200,3
+8,"Cat Food","Pet Supplies",13,56
+9,"Cat Headphones",Electronics,44,32
+10,"Cat Car Decals",Automotive,3,100
+11,"Cat Dress","Womens Clothing",30,22
+12,"Cat Shoes","Womens Shoes",25,13
+13,"Cat Purse",Bags,32,38
+14,"Cat Bracelet",Jewelry,76,4
+15,"Cat Pillow",Bedroom,120,19
+16,"Cat Book",Books,12,22
+17,"Cat Dishes",Kitchenware,200,3
+18,"Cat Food","Pet Supplies",13,56
+19,"Cat Headphones",Electronics,44,32
+20,"Cat Car Decals",Automotive,3,100
+21,"Cat Dress","Womens Clothing",30,22
+22,"Cat Shoes","Womens Shoes",25,13
+23,"Cat Purse",Bags,32,38
+24,"Cat Bracelet",Jewelry,76,4
+25,"Cat Pillow",Bedroom,120,19
+26,"Cat Book",Books,12,22
+27,"Cat Dishes",Kitchenware,200,3
+28,"Cat Food","Pet Supplies",13,56
+29,"Cat Headphones",Electronics,44,32
+30,"Cat Car Decals",Automotive,3,100
