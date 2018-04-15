@@ -25,6 +25,7 @@ var disTable = function () {
     buyProd();
     });
 }
+disTable();
 
 // application prompting user to enter items to purchase
 var buyProd = function () {
@@ -40,7 +41,9 @@ var buyProd = function () {
                 return false;
             }
         }
+        
     },
+    
         {
             name: "quantity",
             type: "input",
@@ -53,10 +56,15 @@ var buyProd = function () {
                     return false;
                 }
             }
+           
 //   check inventory / display result
   }]).then(function(answer) {
+    var userId = answer.id;
+    console.log("Chosen item id: " , userId);
+
     connection.query("SELECT * FROM products WHERE ?", { id: answer.id },
      function(err, res) {
+        
       var cost = res[0].price * answer.quantity;
       if(res[0].stock_quantity < answer.quantity) {
         console.log('Sorry, we do not have enough in stock to complete your order. Choose a lesser quantity');
@@ -79,14 +87,15 @@ var buyProd = function () {
               console.log(`Your total cart is $${cost}`);
               });
         }
+       
     //end connection
-      connection.end();
+     
     }
     );
   });
 }
 //start connection
-connect();
+//removed end and start- throwing errors
 
 
 
